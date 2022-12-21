@@ -20,6 +20,6 @@ IngressPath: ""
 Host: "precisioncare.med.br"
 image:
   repository: "image-registry.openshift-image-registry.svc:5000/precisioncare-portal/precisioncare-landingpage"
-  tag: "v0.1.17-develop.5"
+  tag: "v0.1.16"
 ingress:
   enabled: "true"
