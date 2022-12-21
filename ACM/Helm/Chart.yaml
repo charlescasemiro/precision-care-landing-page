@@ -1,0 +1,4 @@
+apiVersion: v2
+description: Landing page do Precision Care
+name: precision-care-landing-page
+version: 0.1.0
