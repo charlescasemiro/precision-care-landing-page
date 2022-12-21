@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  precision-care-landing-page:
+  - apiVersion: v2
+    created: "2022-12-21T17:10:01.986428-03:00"
+    description: Landing page do Precision Care
+    digest: 9db85167e251ffbd9187a3ce7c8747dea8b5e42c297549f0a441ccb167b483d4
+    name: precision-care-landing-page
+    urls:
+    - https://charlescasemiro.github.io/precision-care-landing-page/precision-care-landing-page-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-21T17:10:01.986173-03:00"
