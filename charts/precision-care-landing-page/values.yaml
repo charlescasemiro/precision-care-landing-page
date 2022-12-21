@@ -1,0 +1,25 @@
+replicaCount: 1
+
+# Runtime
+TZ: "America/Sao_Paulo"
+AllowedHosts: "*"
+
+# Recursos
+memoryRequest: "64Mi"
+cpuRequest: "100m"
+memoryLimit: "256Mi"
+cpuLimit: "400m"
+
+# Next Envs
+NEXT_PUBLIC_URL: "https://precisioncare.med.br"
+NEXT_PRECISION_CARE_URL: "https://grupopardini.com.br/precision-care/"
+
+Name: "precisioncare-landingpage"
+IngressPath: ""
+#Host: "hml-teste-pipeline-dotnetcore.apps.osp.grupopardini.local"
+Host: "precisioncare.med.br"
+image:
+  repository: "image-registry.openshift-image-registry.svc:5000/precisioncare-portal/precisioncare-landingpage"
+  tag: "v0.1.17-develop.5"
+ingress:
+  enabled: "true"
